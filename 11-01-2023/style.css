@@ -1,0 +1,27 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 350px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+}
+
+.card-img {
+  margin-top: 9px;
+  border-radius: 6px;
+}
+
+.card-title {
+  margin: 14px 0;
+}
+
+.card-description {
+  margin-top: 5px;
+  padding: 0px 12px;
+}
