@@ -1,0 +1,49 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-size: 40px;
+  color: #002395;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.carousel__img1,
+.carousel__img2,
+.carousel__img3 {
+  width: 325px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 10%;
+}
+
+.slider-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.slider-btns button {
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  border: none;
+  color: #e30613;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
