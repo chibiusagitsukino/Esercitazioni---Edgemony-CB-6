@@ -1,0 +1,39 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.button {
+  padding: 8px 15px;
+  background-color: rgb(94, 94, 94);
+  color: white;
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+}
+
+.productsList {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  border: 1px solid rgb(94, 94, 94);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card-img {
+  width: 150px;
+  height: 100px;
+  border-radius: 8px;
+}
+.card-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
