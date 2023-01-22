@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Category</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="putndel.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="amazone">ama.zone</h1>
+      <a href="index.html" class="form-link">Home</a>
+    </header>
+    <section class="container">
+      <div class="hero">
+        <img
+          id="img-1"
+          class="show"
+          src="pexels-ksenia-chernaya-3965548.jpg"
+          alt="alt images"
+        />
+      </div>
+    </section>
+
+    <section>
+      <div class="putndelFormDiv">
+        <h2>Change a category's name:</h2>
+        <form id="putCatForm">
+          <div class="formGroup">
+            <label for="name">Type the id of the category to change:</label>
+            <input name="name" type="text" id="put-category-id" required />
+            <label for="name">Type the new category name:</label>
+            <input name="name" type="text" class="category-new-name" required />
+            <label for="name">Type the URL for the new category image:</label>
+            <input
+              name="name"
+              type="text"
+              class="category-new-image"
+              required
+            />
+          </div>
+          <input type="submit" value="CHANGE" />
+        </form>
+      </div>
+
+      <div class="putndelFormDiv">
+        <h2>Delete a category:</h2>
+        <form id="delCatForm">
+          <div class="formGroup">
+            <label for="name">Type the id of the category to delete:</label>
+            <input name="name" type="text" id="delCategoryId" required />
+          </div>
+
+          <input type="submit" value="DELETE" />
+        </form>
+      </div>
+    </section>
+
+    <footer></footer>
+  </body>
+</html>
