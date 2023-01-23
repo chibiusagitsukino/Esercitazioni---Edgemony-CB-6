@@ -16,7 +16,7 @@ const changeCategoryNameAndImage = (categoryId) => {
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify(putObj),
+    body: JSON.stringify(putObj) /* mando putObj all'Api */,
   })
     .then((response) => response.json())
     .then((data) => {

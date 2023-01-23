@@ -19,7 +19,7 @@ const select = document.querySelector('#categorySelect')
 
 let listaProdotti = []
 
-//event listener per filtrare al click sulle option della select
+// GET categorie
 const metodoGetCat = () => {
   fetch('https://api.escuelajs.co/api/v1/categories/')
     .then((res) => res.json())
@@ -29,11 +29,12 @@ const metodoGetCat = () => {
 
 metodoGetCat()
 
+//event listener per filtrare al click sulle option della select
 select.addEventListener('change', (e) => {
   filterByCategory(select.value)
 })
 
-// Creazione della select dinamica per filtrare le categorie
+// Creazione delle option della select dinamica per filtrare le categorie
 const creazioneSelectCategories = (arrayCat) => {
   arrayCat.forEach((item) => {
     const optionValue = document.createElement('option')
