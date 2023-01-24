@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 150px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-container {
+  margin: 20px;
+}
+/* 
+.user-filter {
+} */
