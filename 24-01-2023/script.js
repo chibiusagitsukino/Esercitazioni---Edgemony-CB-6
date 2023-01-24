@@ -2,7 +2,7 @@ import { GET } from './api.js'
 
 const bodyEl = document.querySelector('.body')
 const containerEl = document.querySelector('#container')
-const userFilter = document.querySelector('#user-filter')
+const userFilter = document.querySelector('.user-filter')
 
 GET('users').then((data) =>
   data.users.forEach((user) => {
@@ -38,10 +38,27 @@ const createCard = (user) => {
   bodyEl.appendChild(containerEl)
 }
 
-///// advanced
+/////// ADVANCED
 
-// const onUsersDelete = () => {
-//   const usersEls = document.querySelectorAll('.user')
-//   usersEls.forEach((user) => user.remove())
-// }
-// const
+const onUsersDelete = () => {
+  const usersEls = document.querySelectorAll('.card')
+  usersEls.forEach((user) => user.remove())
+}
+
+userFilter.addEventListener('input', (e) => {
+  onUsersDelete()
+  let searchedValue = e.target.value
+
+  searchedValue = searchedValue.charAt(0).toUpperCase() + searchedValue.slice(1)
+
+  GET('users').then((data) => {
+    data.users.map((user) => {
+      if (
+        user.firstName.includes(searchedValue) ||
+        user.lastName.includes(searchedValue)
+      ) {
+        createCard(user)
+      }
+    })
+  })
+})
