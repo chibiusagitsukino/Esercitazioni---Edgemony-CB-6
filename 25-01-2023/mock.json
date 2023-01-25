@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Monday",
+    "date": "2023-02-06",
+    "description": "Edgemony - Coding Bootcamp #6 h24"
+  },
+  {
+    "id": 2,
+    "title": "Tuesday",
+    "date": "2023-02-07",
+    "description": "Edgemony - Coding Bootcamp #6 h24"
+  },
+  {
+    "id": 3,
+    "title": "Wednesday",
+    "date": "2023-02-08",
+    "description": "Edgemony - Coding Bootcamp #6 h24"
+  },
+  {
+    "id": 4,
+    "title": "Thursday",
+    "date": "2023-02-09",
+    "description": "Edgemony - Coding Bootcamp #6 h24"
+  },
+  {
+    "id": 5,
+    "title": "Friday",
+    "date": "2023-02-10",
+    "description": "Edgemony - Coding Bootcamp #6 h24"
+  },
+  {
+    "id": 6,
+    "title": "No-Saturday",
+    "date": "2023-02-11",
+    "description": "Edgemony - Coding Bootcamp #6 h24"
+  },
+  {
+    "id": 7,
+    "title": "No-Sunday",
+    "date": "2023-02-12",
+    "description": "Edgemony - Coding Bootcamp #6 h24"
+  }
+]
