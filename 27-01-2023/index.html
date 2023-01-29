@@ -6,19 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
   </head>
   <body class="body">
-    <nav></nav>
-    <main clas="tv">
-      <section class="top-rated">
+    <nav class="navbar">
+      <div class="search-btn" id="search-btn">
+        <a href="./search.html">
+          <span class="material-symbols-outlined search-icon"> search </span>
+        </a>
+      </div>
+    </nav>
+
+    <main class="tv">
+      <div class="container">
         <h2>Top Rated</h2>
-      </section>
-      <section class="popular">
+        <section class="top-rated"></section>
+      </div>
+      <div class="container">
         <h2>Popular</h2>
-      </section>
-      <section class="latest">
-        <h2>Latest</h2>
-      </section>
+        <section class="popular"></section>
+      </div>
+      <div class="container">
+        <h2>Airing Today</h2>
+        <section class="airing-today"></section>
+      </div>
     </main>
     <footer></footer>
   </body>

@@ -1,8 +1,6 @@
 import { GET } from './api.js'
 
-// GET().then((data) => console.log(data))
-
-const tvCardGen = (data) => {
+export const tvCardGen = (data) => {
   const cardEl = document.createElement('div')
   const imgEl = document.createElement('img')
   cardEl.setAttribute('id', data.id)
@@ -18,16 +16,17 @@ const tvCardGen = (data) => {
 
 const topRatedEl = document.querySelector('.top-rated')
 const popularEl = document.querySelector('.popular')
-const latestEl = document.querySelector('.latest')
+const airing_todayEl = document.querySelector('.airing-today')
 
-GET('tv', 'top_rated').then((data) =>
+GET('tv', 'top_rated', '').then((data) => {
+  console.log(data, 'top_rated')
   data.results.map((tv) => topRatedEl.append(tvCardGen(tv)))
-)
+})
 
-GET('tv', 'popular').then((data) =>
+GET('tv', 'popular', '').then((data) =>
   data.results.map((tv) => popularEl.append(tvCardGen(tv)))
 )
 
-GET('tv', 'latest').then((data) =>
-  data.results.map((tv) => latestEl.append(tvCardGen(tv)))
-)
+GET('tv', 'airing_today', '').then((data) => {
+  data.results.map((tv) => airing_todayEl.append(tvCardGen(tv)))
+})
