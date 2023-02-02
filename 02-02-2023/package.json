@@ -1,0 +1,19 @@
+{
+  "name": "lista_libri",
+  "version": "1.0.0",
+  "description": "dati di alcuni volumi interessanti",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "libri",
+    "per",
+    "bambini"
+  ],
+  "author": "Adriana",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

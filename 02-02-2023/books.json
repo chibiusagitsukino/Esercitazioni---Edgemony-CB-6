@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Alice's Adventures in Wonderland & Through the Looking-Glass",
+    "author": "Lewis Carroll",
+    "genre": "Children's literature",
+    "price": 26.74
+  },
+  {
+    "title": "The Little Mermaid and Other Fairy Tales",
+    "author": "Hans Christian Andersen",
+    "genre": "Children's literature",
+    "price": 24.03
+  },
+  {
+    "title": "The Wonderful Wizard of Oz",
+    "author": "L. Frank Baum",
+    "genre": "Children's literature",
+    "price": 24.03
+  },
+  {
+    "title": "Peter Pan",
+    "author": "J. M. Barrie",
+    "genre": "Children's literature",
+    "price": 26.2
+  },
+  {
+    "title": "The Adventures of Pinocchio",
+    "author": "Carlo Collodi",
+    "genre": "Children's literature",
+    "price": 26.92
+  },
+  {
+    "title": "The Beauty and the Beast",
+    "author": "Gabrielle-Suzanna Barbot de Villenueve",
+    "genre": "Children's literature",
+    "price": 24.03
+  }
+]
