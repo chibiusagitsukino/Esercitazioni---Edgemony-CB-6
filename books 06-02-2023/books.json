@@ -1,0 +1,62 @@
+[
+  {
+    "titolo": "Il signore degli anelli",
+    "autore": "J.R.R. Tolkien",
+    "descrizione": "Un classico fantasy epico che segue la storia di Frodo e della sua missione per distruggere l'anello del potere",
+    "riservato": true
+  },
+  {
+    "titolo": "Harry Potter e la pietra filosofale",
+    "autore": "J.K. Rowling",
+    "descrizione": "La prima avventura di Harry Potter, un giovane mago che scopre di avere un potere straordinario e si unisce ai suoi amici per salvare il mondo della magia",
+    "riservato": false
+  },
+  {
+    "titolo": "Il grande Gatsby",
+    "autore": "F. Scott Fitzgerald",
+    "descrizione": "Un romanzo che esplora la decadenza della società americana durante il periodo delle feste negli anni '20, seguendo la storia di Jay Gatsby e del suo amore per Daisy Buchanan.",
+    "riservato": false
+  },
+  {
+    "titolo": "Cime Tempestose",
+    "autore": "Emily Bronte",
+    "descrizione": "Una storia d'amore intensa e drammatica ambientata nella campagna inglese, seguendo le vicende di Cathy e Heathcliff.",
+    "riservato": true
+  },
+  {
+    "titolo": "1984",
+    "autore": "George Orwell",
+    "descrizione": "Un romanzo distopico che descrive un futuro in cui la libertà è stata soppressa da un regime totalitario, seguendo le vicende di Winston Smith.",
+    "riservato": false
+  },
+  {
+    "titolo": "Il buio oltre la siepe",
+    "autore": "Harper Lee",
+    "descrizione": "Un classico della letteratura americana che esplora temi di giustizia e tolleranza attraverso gli occhi di Scout Finch, una giovane ragazza che cresce in Alabama durante la depressione.",
+    "riservato": false
+  },
+  {
+    "titolo": "Orgoglio e Pregiudizio",
+    "autore": "Jane Austen",
+    "descrizione": "Un classico della letteratura inglese che esplora le dinamiche sociali e romantiche tra la famiglia Bennet e i loro corteggiatori ambiziosi.",
+    "riservato": true
+  },
+  {
+    "titolo": "Cent'anni di solitudine",
+    "autore": "Gabriel Garcia Marquez",
+    "descrizione": "Un romanzo che esplora le vicende della famiglia Buendia attraverso generazioni di misteri, amori e folle.",
+    "riservato": true
+  },
+  {
+    "titolo": "Diario di Anna Frank",
+    "autore": "Anne Frank",
+    "descrizione": "Il diario di Anne Frank, una giovane ebrea che cercò di sopravvivere ad Auschwitz durante la seconda guerra mondiale.",
+    "riservato": false
+  },
+  {
+    "titolo": "Il giovane Holden",
+    "autore": "J.D. Salinger",
+    "descrizione": "Un romanzo che esplora le emozioni e le difficoltà adolescenziali attraverso gli occhi del giovane Holden Caulfield.",
+    "riservato": false
+  }
+]
