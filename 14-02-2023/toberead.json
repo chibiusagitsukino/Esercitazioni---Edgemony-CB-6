@@ -1,0 +1,39 @@
+[
+  {
+    "title": "A Little Life",
+    "author": "Hanya Yanagihara",
+    "price": "twentyeight"
+  },
+
+  {
+    "title": "Conversations with friends",
+    "author": "Sally Rooney",
+    "price": "twentyfive"
+  },
+
+  {
+    "title": "Human Acts",
+    "author": "Han Kang",
+    "price": "twelve"
+  },
+  {
+    "title": "A Room of One's Own",
+    "author": "Virginia Woolf",
+    "price": "ten"
+  },
+  {
+    "title": "Memoirs of a Dutiful Daughter",
+    "author": "Simone de Beauvoir",
+    "price": "twentytwo"
+  },
+  {
+    "title": "Hygiene and the Assassin",
+    "author": "Amélie Nothomb",
+    "price": "twelve"
+  },
+  {
+    "title": "The House of the Spirits",
+    "author": "Isabel Allende",
+    "price": "twelve"
+  }
+]

@@ -1,0 +1,45 @@
+use toberead
+'switched to db toberead'
+db.createCollection('books')
+{ ok: 1 }
+db.books.insertMany([
+  {
+    "title": "A Little Life",
+    "author": "Hanya Yanagihara",
+    "price": "twentyeight"
+  }, 
+  
+  {
+    "title": "Conversations with friends",
+    "author": "Sally Rooney",
+    "price": "twentyfive"
+  },
+ 
+  {
+    "title": "Human Acts",
+    "author": "Han Kang",
+    "price": "twelve"
+  }])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("63eba68b1f9a6e68ae32066b"),
+    '1': ObjectId("63eba68b1f9a6e68ae32066c"),
+    '2': ObjectId("63eba68b1f9a6e68ae32066d")
+  }
+}
+db.books.findOne({"title": "Conversations with friends"})
+{
+  _id: ObjectId("63eba68b1f9a6e68ae32066c"),
+  title: 'Conversations with friends',
+  author: 'Sally Rooney',
+  price: 'twentyfive'
+}
+db.books.updateOne({"title": "Conversations with friends"}, {$set: {"price": "eighteen"}})
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
