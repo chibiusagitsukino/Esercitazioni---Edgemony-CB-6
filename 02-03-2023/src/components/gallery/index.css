@@ -1,0 +1,11 @@
+.gallery-header {
+  margin: 30px 100px;
+  color: #1f152a;
+}
+
+.gallery-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
