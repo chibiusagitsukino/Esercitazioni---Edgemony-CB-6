@@ -1,0 +1,26 @@
+.Modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+}
+
+.Modal__content {
+  padding: 20px;
+  width: 620px;
+  height: 260px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: inset 0 0 3px #333;
+}
+
+.Modal__btns {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
