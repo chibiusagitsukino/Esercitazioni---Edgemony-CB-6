@@ -16,7 +16,7 @@ const ListProducts = ({ setSingleProductModal }) => {
       {listData.map((product) => (
         <CardProduct
           productData={product}
-          setSingleProductModal={setSingleProductModal}
+          setSingleProductMgfdgodal={setSingleProductModal}
           key={product.id}
         />
       ))}
