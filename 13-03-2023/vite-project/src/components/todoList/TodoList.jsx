@@ -5,11 +5,22 @@ import Todo from '../todo/Todo'
 
 function TodoList() {
   const [todos, setTodos] = useState([])
+  // const [todos, setTodos] = useState(todoList);
 
   const addTodo = (todo) => {
     if (!todo.text || /^\s*$/.test(todo.text)) {
       return
     }
+
+    //
+
+    const existingTodo = todos.find((todo) => todo.text === todo.text)
+    if (existingTodo) {
+      alert(`The todo "${todo.text}" is already in the list.`)
+      return
+    }
+
+    //
 
     let newTodos = [todo, ...todos]
 
