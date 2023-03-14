@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import './index.css'
 
-function TodoForm(props) {
+function TodoForm(props, addTodo) {
   const [input, setInput] = useState(props.edit ? props.edit.value : '')
 
   const inputRef = useRef(null)

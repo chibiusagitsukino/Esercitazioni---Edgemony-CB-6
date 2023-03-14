@@ -1,33 +1,34 @@
-const todolist = [
+const todoList = [
   {
     id: 1,
-    title: 'Fare la spesa',
-    description: 'Comprare lattuga, finocchi e riso',
+    text: 'Ordinare la spesa',
     completed: false,
   },
   {
     id: 2,
-    title: 'Studiare React',
-    description: 'Leggere la documentazione di React',
+    text: 'Stendere il bucato',
     completed: false,
   },
   {
     id: 3,
-    title: 'Iscrivermi in palestra',
-    description: 'Cercare la palestra più vicina a casa',
-    completed: true,
+    text: 'Fare la pulizia della casa',
+    completed: false,
   },
   {
     id: 4,
-    title: 'Prenotare una visita medica',
-    description: 'Richiedere prescrizione di esami del sangue',
-    completed: true,
+    text: 'Preparare la cena',
+    completed: false,
   },
   {
     id: 5,
-    title: 'Chiamare la mamma',
-    description: 'il papà, la zia, il fratello, ecc.',
-    completed: true,
+    text: 'Studiare React',
+    completed: false,
+  },
+  {
+    id: 6,
+    text: 'Iniziare un nuovo romanzo',
+    completed: false,
   },
 ]
-export default todolist
+
+export default todoList

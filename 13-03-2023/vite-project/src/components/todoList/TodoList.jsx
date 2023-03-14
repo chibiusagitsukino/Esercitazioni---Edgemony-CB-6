@@ -11,9 +11,9 @@ function TodoList() {
       return
     }
 
-    const newTodos = [todo, ...todos]
+    let newTodos = [todo, ...todos]
 
-    setTodos(newTodos)
+    setTodos(newTodos.sort((a, b) => a.text.localeCompare(b.text)))
     console.log(...todos)
   }
 
